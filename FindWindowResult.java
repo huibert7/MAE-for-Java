@@ -1,0 +1,1 @@
+public class FindWindowResult extends Object{	public	int			part;	public	NewWindow	theWindow;	public FindWindowResult(int thePart)	{		this.part = thePart;		this.theWindow = null;	}	public FindWindowResult(int thePart,NewWindow windowArg)	{		this.part = thePart;		this.theWindow = windowArg;	}	}

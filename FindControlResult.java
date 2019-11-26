@@ -1,0 +1,1 @@
+public class FindControlResult extends Object{	public	int		part;	public	Control	theControl;	public FindControlResult(int thePart,Control controlArg)	{		this.part = thePart;		this.theControl = controlArg;	}	}
